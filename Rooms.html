@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotels</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <header class="headd">
+        <div class="textAsImage">
+            <p class="textTop">LUXURY</p>
+            <p class="textDown">HOTELS</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index2.html">Home</a></li>
+                <li><a href="page2.html">Facilities</a></li>
+                <li><a href="Rooms.html">Rooms</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="bod">
+        <div class="bod-text">
+            <h2>Welcome to Luxury Hotels</h2>
+            <p>Book your stay and enjoy luxury redefined at the most affordable rates.</p>
+            <button id="bookbut" class="book-now">BOOK NOW</button>
+        </div>
+        <div class="scroll-down" onclick="scrollToRooms()">Scroll</div>
+    </section>
+
+    <section id="rooms-section" class="rooms">
+        <h2>Rooms and Rates</h2>
+        <p>Each of our bright, light-flooded rooms comes with everything you could possibly need for a comfortable stay.
+            And yes, comfort isn’t our only objective, we also value good design, sleek contemporary furnishing
+            complemented by the rich tones of nature’s palette as visible from our rooms’ sea-view windows and terraces.
+        </p>
+
+        <div class="room">
+            <img src="single.jpg" alt="Single Room">
+            <div class="room-details">
+                <h3>SINGLE ROOM</h3>
+                <button class="details-btn">VIEW ROOM DETAILS</button>
+                <p class="price">$147 Avg/night</p>
+            </div>
+        </div>
+        
+        <div class="room">
+            <img src="Deluxe-Double-Guestroom2.webp" alt="Double Room">
+            <div class="room-details">
+                <h3>DOUBLE ROOM</h3>
+                <button class="details-btn">VIEW ROOM DETAILS</button>
+                <p class="price">$150 Avg/night</p>
+            </div>
+        </div>
+        
+        <div class="room">
+            <img src="triple.jpg" alt="Triple">
+            <div class="room-details">
+                <h3>TRIPLE ROOM</h3>
+                <button class="details-btn">VIEW ROOM DETAILS</button>
+                <p class="price">$155 Avg/night</p>
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="footer-triangle"></div>
+        <div class="footer-content">
+            <div class="contact-info">
+                <p>New cairo, Egypt</p>
+                <p>luxury@hotels.com</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Rooms</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://twitter.com/?lang=en">Twitter</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+            </div>
+            <div class="newsletter">
+                <p>Subscribe to our newsletter</p>
+                <input type="email" placeholder="Enter email address">
+                <button>OK</button>
+            </div>
+        </div>
+    </footer>
+    <button id="scroll-to-top" onclick="scrollToTop()">Top</button>
+    <script src="script.js"></script>
+</body>
+
+</html>

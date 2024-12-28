@@ -1,0 +1,175 @@
+@media screen and (max-width: 1240px) {
+  header ul {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90% !important;
+  }
+  .textAsImage .textTop {
+    font-size: 20px !important;
+  }
+  .textAsImage .textDown {
+    font-size: 15px !important;
+  }
+  #iconOfTop {
+    display: none !important;
+  }
+  header ul {
+    width: 40% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  #iconOfTop {
+    display: block !important;
+  }
+  .container {
+    width: 80% !important;
+  }
+  .textAsImage .textTop {
+    font-size: 20px !important;
+  }
+  .textAsImage .textDown {
+    font-size: 15px !important;
+  }
+  header {
+    position: relative;
+  }
+  header ul {
+    opacity: 0;
+    display: block !important;
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    padding: 0px 30px;
+    bottom: -160%;
+    z-index: 999;
+    background-color: #14274a;
+    width: 100% !important;
+    line-height: 1.7;
+  }
+  .sectionThree .parent {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-content: center !important;
+  }
+  .sectionThree .parentText {
+    width: 100% !important;
+  }
+  .FormTE {
+    width: 100% !important;
+  }
+  footer {
+    flex-direction: column !important;
+  }
+  .lists {
+    flex-direction: column !important;
+  }
+  .lists ul {
+    width: 100% !important;
+  }
+  .lists ul {
+    margin: 15px 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90% !important;
+  }
+  .textAsImage .textTop {
+    font-size: 20px !important;
+  }
+  .textAsImage .textDown {
+    font-size: 15px !important;
+  }
+  header {
+    position: relative;
+  }
+  header ul {
+    opacity: 0;
+    display: block !important;
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    padding: 0px 20px;
+    bottom: -160%;
+    z-index: 999;
+    background-color: #14274a;
+    width: 100% !important;
+    line-height: 1.7;
+  }
+  .sectionThree .parent {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-content: center !important;
+  }
+  .sectionThree .parentText {
+    width: 100% !important;
+  }
+  .FormTE {
+    width: 100% !important;
+  }
+  footer {
+    flex-direction: column !important;
+  }
+  .lists {
+    flex-direction: column !important;
+  }
+  .lists ul {
+    width: 100% !important;
+  }
+  .lists ul {
+    margin: 15px 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90% !important;
+  }
+  .textAsImage .textTop {
+    font-size: 20px !important;
+  }
+  .textAsImage .textDown {
+    font-size: 15px !important;
+  }
+  header {
+    position: relative;
+  }
+  header ul {
+    opacity: 0;
+    display: block !important;
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    padding: 0px 20px;
+    bottom: -160%;
+    z-index: 999;
+    background-color: #14274a;
+    width: 100% !important;
+    line-height: 1.7;
+  }
+  .sectionThree .parent {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-content: center !important;
+  }
+  .sectionThree .parentText {
+    width: 100% !important;
+  }
+  .FormTE {
+    width: 100% !important;
+  }
+  footer {
+    flex-direction: column !important;
+  }
+  .lists {
+    flex-direction: column !important;
+  }
+  .lists ul {
+    width: 100% !important;
+  }
+  .lists ul {
+    margin: 15px 0px;
+  }
+}
