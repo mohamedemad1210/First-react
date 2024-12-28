@@ -1,0 +1,314 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #14274a;
+   padding: 16px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 70px;
+}
+
+header nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+header nav ul li {
+   margin-right: 16px;
+}
+
+header nav ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+header nav ul li a:hover {
+   color: #ffa500;
+}
+
+.bod {
+   background: url('roomm.jpg') no-repeat center center/cover;
+   height: 420px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
+
+.bod-text h2 {
+   margin: 0;
+   font-size: 36px;
+   font-weight: bold;
+}
+
+.bod-text p {
+   margin: 16px 0;
+   font-size: 18px;
+}
+
+.book-now {
+   background-color: #e0b973;
+   border: none;
+   padding: 12px 24px;
+   cursor: pointer;
+   font-size: 18px;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+   border-radius: 20px;
+}
+
+.book-now:hover {
+   background-color: #cc8400;
+}
+
+.scroll-down {
+   margin-top: 16px;
+   cursor: pointer;
+   font-size: 18px;
+   color: white;
+}
+
+.scroll-down:hover {
+   background-color: #cc8400;
+}
+
+.rooms {
+   text-align: center;
+   padding: 64px 16px;
+   background-color: #f4f4f4;
+}
+
+.rooms h2 {
+   margin: 0;
+   font-size: 32px;
+   font-weight: bold;
+}
+
+.rooms p {
+   margin: 1px 0 32px;
+   font-size: 18px;
+   line-height: 1.6;
+}
+
+.room {
+   background-color: white;
+   border: 1px solid #003366;
+   margin: 15px auto;
+   max-width: 800px;
+   border-radius: 5px;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.room img {
+   width: 100%;
+   height: auto;
+}
+
+.room-details {
+   padding: 20px;
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.room-details h3 {
+   margin: 0;
+   font-size: 24px;
+   font-weight: bold;
+   color: white;
+   text-align: center;
+   background-color: #003366;
+   padding: 16px;
+   width: 110%;
+   box-sizing: border-box;
+}
+
+.details-btn {
+   background-color: white;
+   border: none;
+   color: #0056b3;
+   cursor: pointer;
+   font-size: 16px;
+   text-transform: uppercase;
+   font-weight: bold;
+   display: block;
+   margin: 16px auto 0;
+}
+
+.details-btn:hover {
+   text-decoration: underline;
+}
+
+.price {
+   background-color: #e0b973;
+   padding: 12px 24px;
+   cursor: pointer;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+   border-radius: 10px;
+   text-align: center;
+   width: 200px;
+   margin-top: 10px;
+}
+
+footer {
+   padding: 80px 0;
+   background-color: #14274a;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.footer-content .contact-info,
+.footer-content .footer-links,
+.footer-content .social-media,
+.footer-content .newsletter {
+   color: white;
+   flex: 1;
+   margin: 16px;
+   text-align: center;
+}
+
+.footer-content .newsletter input {
+   padding: 8px;
+   margin-right: 8px;
+}
+
+.footer-content .newsletter button {
+   background-color: #e0b973;
+   border: none;
+   padding: 8px 16px;
+   cursor: pointer;
+}
+
+.footer-links a,
+.social-media a {
+   color: white;
+   text-decoration: none;
+}
+
+.footer-links a:hover,
+.social-media a:hover {
+   text-decoration: underline;
+}
+footer {
+   position: relative;
+   background-color: #14274a; /* Match your footer background color */
+   padding-top: 50px; /* Adjust if needed */
+}
+
+footer::before {
+   content: "";
+   position: absolute;
+   top: -25px;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 0;
+   height: 0;
+   border-left: 70px solid transparent;
+   border-right: 70px solid transparent;
+   border-bottom: 50px solid #14274a; /* Match this color with your footer background */
+}
+
+
+#scroll-to-top {
+   display: none;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   background-color: #e0b973;
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+   header nav ul {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .textAsImage {
+      width: 50%;
+   }
+
+   .bod {
+      padding: 10px;
+   }
+
+   .rooms h2 {
+      font-size: 28px;
+   }
+
+   .rooms p {
+      font-size: 16px;
+   }
+
+   .room-details h3 {
+      font-size: 20px;
+   }
+
+   .details-btn {
+      font-size: 14px;
+   }
+
+   .price {
+      font-size: 18px;
+   }
+
+   footer {
+      padding: 40px 0;
+   }
+
+   
+}
+
+.textAsImage {
+   background-color: #e0b973;
+   padding: 10px;
+   border-radius: 0px 0px 20px 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 15%;
+}
+
+.textAsImage .textTop {
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.textAsImage .textDown {
+   font-size: 12px;
+}
