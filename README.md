@@ -9,17 +9,6 @@ Features
 	•	Dynamic Interactions: Supports rich, dynamic functionality with JavaScript (ES6+).
 	•	Modular Architecture: Reusable components for scalability and easy maintenance.
 	•	API Integration Ready: Easily integrate APIs using Axios for efficient data fetching.
-
-Folder Structure
-
-The project is well-organized with the following structure:
-
-/src  
-  ├── /assets        # Images, fonts, and other static resources  
-  ├── /components    # Reusable React components  
-  ├── /pages         # Individual pages (e.g., Home, Booking)  
-  ├── /styles        # Global CSS and styled-components  
-
 Getting Started
 
 Follow these steps to run the project locally:
@@ -79,10 +68,3 @@ Contact
 
 For inquiries or feedback, feel free to reach out:
 📧 mohamedemad0016@gmail.com
-
-Live Demo
-
-If deployed online, explore the project here:
-Live Demo Link (Add your live demo link)
-
-This README file is now formatted correctly for GitHub. It will display headings, lists, and code blocks clearly. Let me know if you need further adjustments!
